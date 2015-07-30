@@ -1,0 +1,210 @@
+/* This is place for css you need to execute on the settings page. This file will only load on the menu pages you've define in the config file. */
+.seed_csp3 .emaillist_desc{
+	display:none;
+}
+.seed_csp3 #icon-options-general {
+    background: transparent url(seedprod-logo.png) no-repeat 0 9px;
+    width:75px;
+}
+.seed_csp3 .seed_csp3-version{
+	font-size:10px;
+}
+.seed_csp3 .seed_csp3-support{
+
+}
+.seed_csp3 .mceLayout{
+	background-color:#fff;
+}
+
+/* General */
+.seed_csp3 #seed_csp3_section_1_1 > h3 > span{
+	background: transparent url(icons/settings.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Page Settings */
+.seed_csp3 #seed_csp3_section_1_2 > h3 > span{
+	background: transparent url(icons/page.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Database */
+.seed_csp3 #seed_csp3_section_1_10 > h3 > span{
+	background: transparent url(icons/database.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* FeedBurner */
+.seed_csp3 #seed_csp3_section_1_11 > h3 > span{
+	background: transparent url(icons/feedburner.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Aweber */
+.seed_csp3 #seed_csp3_section_1_13 > h3 > span{
+	background: transparent url(icons/aweber.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* CampaignMonitor */
+.seed_csp3 #seed_csp3_section_1_14 > h3 > span{
+	background: transparent url(icons/campaignmonitor.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* ConstantContact */
+.seed_csp3 #seed_csp3_section_1_15 > h3 > span{
+	background: transparent url(icons/constantcontact.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* GravityForms */
+.seed_csp3 #seed_csp3_section_1_16 > h3 > span{
+	background: transparent url(icons/gravityforms.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* WYSIJA */
+.seed_csp3 #seed_csp3_section_1_26 > h3 > span{
+	background: transparent url(icons/wysija.png) no-repeat 0 9px;
+	padding:9px 20px 0 10px;
+}
+
+/* Sendy */
+.seed_csp3 #seed_csp3_section_1_76 > h3 > span{
+	background: transparent url(icons/sendy.png) no-repeat 0 9px;
+	padding:9px 20px 0 10px;
+}
+
+/* MailChimp */
+.seed_csp3 #seed_csp3_section_1_17 > h3 > span{
+	background: transparent url(icons/mailchimp.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* GetResponse */
+.seed_csp3 #seed_csp3_section_1_50 > h3 > span{
+	background: transparent url(icons/getresponse.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Progress Bar Settings */
+.seed_csp3 #seed_csp3_section_1_20 > h3 > span{
+	background: transparent url(icons/progress.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Countdown Settings */
+.seed_csp3 #seed_csp3_section_1_21 > h3 > span{
+	background: transparent url(icons/countdown.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Header */
+.seed_csp3 #seed_csp3_section_1_8 > h3 > span{
+	background: transparent url(icons/header.png) no-repeat 0 9px;
+	padding:6px 20px 0 0;
+}
+
+/* Footer */
+.seed_csp3 #seed_csp3_section_1_7 > h3 > span{
+	background: transparent url(icons/footer1.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* After Subscribe */
+.seed_csp3 #seed_csp3_section_1_5 > h3 > span{
+	background: transparent url(icons/after.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Social */
+.seed_csp3 #seed_csp3_section_1_4 > h3 > span{
+	background: transparent url(icons/social.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Language */
+.seed_csp3 #seed_csp3_section_1_3 > h3 > span{
+	background: transparent url(icons/language.png) no-repeat 0 9px;
+	padding:6px 20px 0 0;
+}
+
+/* Themes */
+.seed_csp3 #seed_csp3_section_2_8 > h3 > span{
+	background: transparent url(icons/theme1.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Background */
+.seed_csp3 #seed_csp3_section_2_1 > h3 > span{
+	background: transparent url(icons/background.png) no-repeat 0 9px;
+	padding:8px 20px 0 0;
+}
+
+/* Container */
+.seed_csp3 #seed_csp3_section_2_3 > h3 > span{
+	background: transparent url(icons/container.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Template */
+.seed_csp3 #seed_csp3_section_2_9 > h3 > span{
+	background: transparent url(icons/template.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Text */
+.seed_csp3 #seed_csp3_section_2_2 > h3 > span{
+	background: transparent url(icons/text.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Access */
+.seed_csp3 #seed_csp3_section_4_2 > h3 > span{
+	background: transparent url(icons/access.png) no-repeat 0 9px;
+	padding:9px 20px 0 0;
+}
+
+/* Scripts */
+.seed_csp3 #seed_csp3_section_4_3 > h3 > span{
+	background: transparent url(icons/scripts.png) no-repeat 0 9px;
+	padding:4px 20px 0 0;
+}
+
+/* Import Export */
+.seed_csp3 #seed_csp3_section_4_4 > h3 > span{
+	background: transparent url(icons/importexport.png) no-repeat 0 9px;
+	padding:4px 20px 0 0;
+}
+
+/* Form Settings */
+.seed_csp3 #seed_csp3_section_1_30 > h3 > span{
+	background: transparent url(icons/form.png) no-repeat 0 9px;
+	padding:8px 20px 0 0;
+}
+
+/* Hide unused Integrations */
+/* #seed_csp3_section_1_11 - FeedBurner */
+/* #seed_csp3_section_1_13 - Aweber */
+/* #seed_csp3_section_1_14 - Campagin Monitor */
+/* #seed_csp3_section_1_15 - Constant Contact */
+/* #seed_csp3_section_1_16 - Gravity Forms */
+/* #seed_csp3_section_1_17 - MailChimp */
+
+#seed_csp3_section_1_11, #seed_csp3_section_1_13, #seed_csp3_section_1_14, #seed_csp3_section_1_15, #seed_csp3_section_1_16, #seed_csp3_section_1_17{
+	display:none;
+}  
+
+.seedprod-postbox > h3 > span{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: .6;
+}
+
+.placeholder { color: #aaa; }
+
+
+
+
+

@@ -1,0 +1,26 @@
+<wpml-config> 
+    <admin-texts>
+        <key name="seed_csp3_settings_1">
+            <key name="headline" />
+            <key name="description" />
+            <key name="thankyou_msg" />
+            <key name="countdown_days" />
+            <key name="countdown_hours" />
+            <key name="countdown_minutes" />
+            <key name="countdown_seconds" />
+            <key name="seo_title" />
+            <key name="seo_description" />
+            <key name="txt_1" />
+            <key name="txt_2" />
+            <key name="txt_3" />
+            <key name="txt_4" />
+            <key name="txt_5" />
+            <key name="txt_6" />
+            <key name="txt_fname" />
+            <key name="txt_lname" />
+
+        </key>
+    </admin-texts>      
+</wpml-config>
+
+
