@@ -1,0 +1,279 @@
+/*
+ *
+ */
+
+@font-face {
+    font-family: newtext_rg_btregular;
+    src: url('../../fonts/newtext_regular_bt-webfont.woff');
+}
+/*
+ * Defaults
+ */
+ 
+a:hover {
+	text-decoration: none;
+	color:#ED1C24;
+} 
+.max {
+	max-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*
+ * Header logo
+ */
+
+#logo-header-row {
+    border-bottom: 0.375em solid red;
+}
+#logo-header-cell > * {
+    vertical-align: bottom;
+    
+}
+#logo-header {
+    margin-top: 4rem;
+    margin-bottom: 1.1rem;
+    margin-right: 1rem;
+}
+#logo-header-subtitle {
+    font-size: 2.0em;
+	font-family: newtext_rg_btregular;
+    color: gray;
+}
+@media only screen and (min-width: 768px) {
+    #logo-header-subtitle {
+        white-space: nowrap;
+    }
+}
+#logo-header-subtitle-a {
+    color: #ED1C24;
+}
+/* don't allow the text within the subtitle parts to wrap */
+#logo-header-subtitle > * {
+    white-space: nowrap;
+}
+
+/*
+ * Navigation
+ */
+
+#navbar a {
+    color: inherit;
+}
+@media only screen and (min-width: 768px) {
+    #navbar .current-menu-item {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='9' height='5'><path d='M 0,0 9,0 5,5 0,0' style='fill:red' /></svg>");
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #navbar .current-menu-item {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='5' height='9'><path d='M 0,0 5,5 0,9 0,0' style='fill:red' /></svg>");
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+}
+
+/*
+ * Posts
+ */
+
+.entry-header, .entry-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* this is a poorly named class, at this point */
+.tt-search {
+    margin-top: 4em;
+}
+.entry-content {
+	padding-bottom:2.0em;
+	max-width:1000px;
+}
+#home .entry-content {
+	padding-bottom:2.0em;
+    border-bottom: 2px solid #e3e6e6;
+    text-align: center;
+	max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.entry-sub-header, .entry-content {
+    margin-top: 1em;
+}
+
+.entry-content > #tt-feature-img img {
+	margin-top:1.0em;
+	margin-bottom: 1.5em;
+	margin-left:auto;
+	margin-right:auto;
+}
+.entry-content > a.btn-default {
+	padding:1.0em 2.0em;
+    background-color:#ee1d24;
+}
+.entry-content > a.btn-default:hover {
+    background-color:#b10000;
+}
+header.entry-header > h1 {
+    margin-top: 0rem;
+}
+header.entry-header > h2 {
+    margin-top: 0rem;
+    font-size: 3.0em;
+}
+header.entry-header .entry-title a {
+    color: black;
+}
+header.entry-header .entry-title a:hover {
+    text-decoration: none;
+    color:#ee1d24;
+}
+
+header.entry-header .tt-separator {
+    padding-left: 0.75em;
+}
+.more-link {
+	background-color:#e3e6e6;
+	color:white;
+	float:right;
+	padding:0.3em 0.5em;
+}
+.more-link:hover {
+	background-color:#ee1d24;
+	color:white;
+}
+
+/*
+ * sidebars
+ */
+
+.sidebar {
+    margin-top: 4em;
+}
+
+.sidebar .widget {
+    padding-bottom: 0.75em;
+}
+
+.sidebar .textwidget ul {
+    list-style: none;
+    padding-left: 0em;
+}
+
+.sidebar .textwidget li {
+    margin-bottom: 0.75em;
+}
+
+.sidebar .textwidget li:before {
+    font-family: FontAwesome;
+    font-size:1.5em;
+    color: gray;
+    content: '\f058'; 
+    padding-right:0.75em;
+}
+
+/* widget top borders for main sidebar */
+.main-sidebar .widget {
+    border-top: 0.75em solid LightGray;
+    padding-bottom: 0.75em;
+}
+
+/* no header margin-top for lower sidebar */
+.lower-sidebar > .widget > h2 {
+    margin-top: 0rem;
+}
+
+/*
+ * categories
+ */
+
+.tt-search ul.post-categories {
+    display: inline;
+    padding-left: 0.75em;
+}
+.tt-search ul.post-categories > li {
+    //margin:0.8em 0;
+    display: inline;
+}
+.tt-search ul.post-categories a {
+    color:gray;
+    font-size: 1.0em;
+}
+.tt-search ul.post-categories li {
+    padding-left: 0.0em;
+    text-indent: 0.0em;
+    font-size: 1.0em;
+    color: #79a99c;
+}
+.tt-search ul.post-categories li:before { 
+    font-family: FontAwesome;
+    font-size:1.0em;
+    color: gray;
+    content: '\f08d'; 
+    padding-right:0.2em;
+}
+.tt-search ul.post-categories li a { 
+    margin-right:1.0em;
+}
+.tt-search h2 { 
+    padding:0;
+    margin:0;
+}
+
+/*
+ * That gray bar
+ */
+
+.tt-graybar {
+    margin-top: 4em;
+    background-color: LightGray;
+    padding-bottom: 2em;
+}
+
+/*
+ * The photo gallery section
+ */
+
+.tt-gallery {
+    margin-top: 4em;
+}
+.tt-gallery-cell {
+    padding: 0.2em;
+}
+.tt-gallery-thumb:hover {
+    opacity: 0.67;
+}
+
+/*
+ * Headlines
+ */
+
+.tt-headlines {
+    margin-top: 2em;
+    padding-bottom: 2em;
+    background-color: #DFDFDF;
+    color: gray;
+}
+
+/*
+ * Legal stuff at the bottom (home)
+ */
+
+#tt-legal {
+    margin-top: 3em;
+    font-size: 75%;
+    color: gray;
+}
+
+/*
+ * Footer logo (inside pages)
+ */
+
+#tt-single-footer {
+    margin-top: 4em;
+    padding-bottom: 2em;
+    border-bottom: 0.375em solid red;
+}
